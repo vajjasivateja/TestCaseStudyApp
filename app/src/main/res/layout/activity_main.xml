@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".presentation.activities.MainActivity">
+
+    <!-- Container for the CurrencyListFragment -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_database" />
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_crypto_fait_data" />
+
+        <Button
+            android:id="@+id/btnCrypto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_crypto_currencies" />
+
+        <Button
+            android:id="@+id/btnFiat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_fiat_currencies" />
+
+        <Button
+            android:id="@+id/btnShowPurchasable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_purchasable_currencies" />
+    </LinearLayout>
+</LinearLayout>

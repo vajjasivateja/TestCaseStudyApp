@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestCaseStudy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clear_database">Clear Database</string>
+    <string name="insert_crypto_fait_data">Insert Crypto + Fait Data</string>
+    <string name="show_crypto_currencies">Show Crypto Currencies</string>
+    <string name="show_fiat_currencies">Show Fiat Currencies</string>
+    <string name="show_purchasable_currencies">Show Purchasable Currencies</string>
+    <string name="no_currencies_available">No Result</string>
+</resources>

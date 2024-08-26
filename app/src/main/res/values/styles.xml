@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MySearchViewTheme" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="android:background">@color/white</item>
+        <item name="android:colorForeground">@color/colorPrimaryLightBlue</item>
+        <!-- Changes icons color -->
+        <item name="iconSize">16sp</item>
+    </style>
+</resources>
