@@ -8,4 +8,5 @@
     <string name="show_fiat_currencies">Show Fiat Currencies</string>
     <string name="show_purchasable_currencies">Show Purchasable Currencies</string>
     <string name="no_currencies_available">No Result</string>
+    <string name="title_activity_main_compose">MainComposeActivity</string>
 </resources>
